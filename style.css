@@ -1,0 +1,746 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+}
+
+.headercontainer {
+  width: 100%;
+  background-image: url(/images/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+}
+
+li {
+  color: white;
+  font-family: montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+header button {
+  border-radius: 50px;
+  background: #1bc768;
+  color: #fff;
+  font-family: montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0.5rem 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.headerlogo img {
+  cursor: pointer;
+}
+
+.hero {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.herotext {
+  margin-top: 2rem;
+  width: 45%;
+}
+
+.heroimage img {
+  width: 100%;
+}
+
+.herotext h2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.herotext p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 2rem 0;
+}
+
+.heroBtn button {
+  border-radius: 50px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: none;
+  padding: 0.5rem 2rem;
+  margin-right: 1rem;
+}
+
+.heroBtn button:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #043caa;
+}
+::placeholder{
+  color: #7a7a7a;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.heroinput {
+  margin-top: 2rem;
+}
+
+.heroinput input{
+  border-radius: 50px 0 0 50px;
+  background: #dee9ff;
+  padding-left: 2rem;
+  width: 350px;
+  height: 38px;
+  border: none;
+  background-image: url(./images/search.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.heroinput button{
+  background: #1bc768;
+  border-radius: 0 50px 50px 0;
+  color: #fff;
+  border: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  width: 120px;
+  height: 39px;
+  margin-left: -4px;
+}
+
+.innercontainer{
+  width: 80%;
+  margin: auto;
+}
+
+.affiliations {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.affiliations h2{
+  color: #043caa;
+  font-family: Avenir;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.lines{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.line1 hr{
+  width: 45px;
+  height: 5px;
+  flex-shrink: 0;
+  background: #043caa;
+}
+
+.line2 hr{
+  width: 45px;
+  height: 5px;
+  flex-shrink: 0;
+  background: #1bc768;
+}
+
+.affiliations{
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.sponsors{
+  display: flex;
+  gap: 7rem;
+  width: 50%;
+  margin: auto;
+}
+
+.benefits{
+  text-align: center;
+}
+
+.benefitflex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefitflex2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefitflex3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefits h2{
+  color: #043caa;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.benefittext h5{
+  color: #043caa;
+  font-family: monteserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+
+.listflex{
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.listflex p{
+  color: #333;
+  font-family: monteserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.benefitBtn button{
+  border-radius: 50px;
+  border: 1px solid #1bc768;
+  display: inline-flex;
+  padding: 11px 35px;
+  font-family: monteserrat;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  color: #1bc768;
+}
+
+.benefitBtn{
+  margin-top: 1rem;
+}
+
+.client{
+  display: flex;
+  margin-bottom: 4rem;
+  align-items: center;
+}
+
+.clientimage{
+  width: 50%;
+}
+
+.clientimage img{
+  width: 80%;
+}
+
+.clientText{
+  width: 40%;
+}
+
+.clientText h2{
+  color: #000;
+  font-family: monteserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.clientText p{
+  color: #000;
+  font-family: monteserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 75%;
+}
+
+.clientText h6{
+  color: #043caa;
+  font-family: monteserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  padding: 1.5rem 0;
+}
+
+.liness{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-left: -19rem;
+}
+
+footer{
+width: 100%;
+background:#043CAA;
+}
+
+.innerfooter{
+width: 80%;
+margin: auto;
+padding-top: 4rem;
+}
+
+.textinput{
+  display: flex;
+  justify-content: space-between;
+}
+
+.textside{
+  width: 50%;
+}
+
+.inputside{
+  width: 45%;
+}
+
+.textside h3{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+  
+.textside p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
+margin-top: 1rem;
+  
+}
+  
+.inputside input{
+  border-radius: 50px 0 0 50px;
+  background: #dee9ff;
+  padding-left: 2rem;
+  width: 350px;
+  height: 38px;
+  border: none;
+  font-size: 18px;
+  font-family: montserrat;
+  margin-top: 1rem;
+}
+
+.inputside label{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+  
+
+.inputside button{
+  background: #1bc768;
+  border-radius: 0 50px 50px 0;
+  color: #fff;
+  border: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  width: 120px;
+  height: 39px;
+  margin-left: -4px;
+  /* margin-top: 3rem; */
+  background-image: url(./images/search.png);
+}
+
+.footercontent{
+display: flex;
+justify-content: space-between;
+margin-bottom: 1rem;
+margin-top: 6rem;
+align-items: center;
+}
+
+.logoside{
+width: 30%;
+}
+
+.footerside{
+  display: flex;
+  gap: 6rem;
+}
+
+.logoside p{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16-px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1rem; 
+  width: 70%;
+}
+
+.foot h5{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;  
+}
+
+.foot p{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+}
+
+.copyright{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+ text-align: center; 
+ margin-top: 2rem;
+ margin-bottom: 1rem;
+}
+
+@media screen and (max-width:1024px){
+.herotext h2{
+  font-size: 40px;
+}
+
+.herotext p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 2rem 0;
+}
+
+.herotext{
+  margin-top: 2rem;
+  width: 65%;
+}
+
+.inputside input{
+  width: 250px;
+}
+
+.inputside button{
+  width: 100px;
+}
+
+.sponsors{
+  gap: 7rem;
+  width: 65%;
+}
+/* 
+.footerside{
+  width: 200%;
+  gap: 7rem;
+} */
+
+}
+@media screen and (max-width:768px){
+
+ul{
+  display: none;
+}
+
+header button{
+  display: none;
+}
+
+.herotext h2{
+  font-size: 35px;
+}
+
+.herotext p{
+font-size: 14px;
+}
+ 
+.herotext{
+  width: 85%;
+}
+.heroBtn{
+margin-top: -2rem;
+}
+
+.heroBtn button{
+  font-size: 14px;
+  padding: .5rem 1.2rem;
+  margin-right: .7rem;
+}
+
+.heroinput input{
+width: 260px;
+height: 38px;
+}
+
+.heroinput button{
+font-size: 14px;
+width: 100px;
+height: 38px;
+margin-left: -4px;
+}
+
+.affiliations h2{
+  font-size: 30px;
+}
+
+.sponsors{
+  gap: 4rem;
+  width: 80%;
+}
+
+.benefits h2{
+  font-size: 30px;
+}
+
+.benefittext h5{
+  font-size: 2opx;
+  margin-bottom: 2rem;
+}
+
+.listflex p{
+  font-size: 14px;
+}
+
+.benefitBtn button{
+  font-size: 14px;
+}
+
+.benefitimage img{
+  width: 100%;
+}
+
+.benefitsimage img{
+ width: 80% ; 
+}
+
+.clientText h2 {
+  font-size: 25px;
+}
+
+
+.clientText p{
+ width: 75%;
+  font-size: 14px;
+}
+
+.liness{
+  margin-left: -4rem;
+}
+
+.clientText h6{
+  font-size: 14px;
+}
+
+.textside h3{
+  font-size: 20px;
+  margin-bottom: 1.5rem;
+  }
+  
+  .textside p{
+    font-size: 14px;
+    width: 80%;
+  }
+  
+.inputside input{
+  width: 180px;
+  font-size: 14px;
+  padding-left: .5rem;
+}
+
+.inputside label{
+  font-size: 14px;
+}
+  
+.inputside button{
+  font-size: 14px;
+  width: 90px;
+}
+
+
+.footerside{
+  width: 65%;
+  gap: 3rem;
+}
+
+.logoside p{
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 427px){
+.hero {
+  width: 90%;
+  display: block;
+  margin-top: 3rem;
+}
+
+.herotext{
+  margin-top: 2rem;
+  width: 90%;
+}
+
+.heroimage img{
+  width: 100%;
+}
+
+.herotext h2{
+  font-size: 35px;
+}
+
+.herotext p{
+  font-size: 14px;
+  padding: 2rem 0;
+}
+
+.heroBtn button{
+  font-size: 14px;
+  padding: .5rem 1.3rem;
+}
+
+.heroinput input{
+  width: 240px;
+}
+
+.affiliations h2{
+  font-size: 30px;
+}
+
+.sponsors{
+  gap: 1rem;
+  width: 100%;
+}
+
+.sponsors img{
+  width: 90%;
+}
+
+.benefitflex{
+  display: block;
+}
+
+.benefitflex2{
+flex-direction: column-reverse;
+}
+
+.benefitflex3{
+  display: block;
+}
+  
+.client{
+  flex-direction: column-reverse;
+}
+
+.clientText{
+width: 80%;
+}
+ 
+.clientimage{
+width: 80%;
+margin-top: 2rem;
+}
+
+
+.footercontent{
+  display: block;
+}
+  
+
+.footerside{
+    display: block;
+  }
+
+
+.textinput{
+  display: block;
+
+}
+
+
+.textside{
+  width: 1000%;
+  
+}
+
+
+
+
+
+}
